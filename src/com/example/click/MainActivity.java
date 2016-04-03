@@ -19,14 +19,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 import android.app.Activity;
-/*
- * ddddddddddd
- */
+
 public class MainActivity<MyAdapter> extends Activity {
 	private TextView textView;
 	private ListView listView;
+<<<<<<< HEAD
 	private ListView lvs;
+=======
+	private ListView lv;
     
+>>>>>>> dev1
+private TextView tv;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
