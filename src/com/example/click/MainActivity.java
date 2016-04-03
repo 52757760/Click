@@ -20,7 +20,7 @@ import java.util.List;
 
 import android.app.Activity;
 /*
- * 或者喜欢的大家快点快点看看的看看
+ * ddddddddddd
  */
 public class MainActivity<MyAdapter> extends Activity {
 	private TextView textView;
