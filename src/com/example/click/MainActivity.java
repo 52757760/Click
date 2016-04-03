@@ -26,7 +26,7 @@ public class MainActivity<MyAdapter> extends Activity {
 	
 	private ListView lvs;
     
-   
+    int a=1;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
