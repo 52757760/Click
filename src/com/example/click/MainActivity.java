@@ -25,7 +25,7 @@ import android.app.Activity;
 public class MainActivity<MyAdapter> extends Activity {
 	private TextView textView;
 	private ListView listView;
-    
+	private ListView lvs;
     
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
