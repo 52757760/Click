@@ -23,7 +23,6 @@ import android.app.Activity;
 public class MainActivity<MyAdapter> extends Activity {
 	private TextView textView;
 	private ListView listView;
-	private TextView tv;
     
     
 	@Override
@@ -33,14 +32,7 @@ public class MainActivity<MyAdapter> extends Activity {
 		
 	    listView=(ListView) findViewById(R.id.listView1);
 	    listView.setAdapter(new MyAdapter(getData()));
-	    listView.setOnItemClickListener(new OnItemClickListener() {
-
-			@Override
-			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
-				// TODO Auto-generated method stub
-				
-			}
-		});
+	    
 	}
     
 	public List<String> getData(){
