@@ -19,12 +19,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 import android.app.Activity;
-/*
- * ddddddddddd
- */
+
 public class MainActivity<MyAdapter> extends Activity {
 	private TextView textView;
 	private ListView listView;
+	private ListView lv;
     
     
 	@Override
