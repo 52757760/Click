@@ -39,8 +39,8 @@ public class MainActivity<MyAdapter> extends Activity {
     
 	public List<String> getData(){
 		List<String> list=new ArrayList<String>();
-		for(int i=0;i<100;i++){
-			list.add("ºÙºÙ"+i);
+		for(int i=0;i<1000;i++){
+			list.add("haha"+i);
 		}
 		return list;
 		
