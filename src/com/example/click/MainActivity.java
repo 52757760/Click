@@ -23,10 +23,10 @@ import android.app.Activity;
 public class MainActivity<MyAdapter> extends Activity {
 	private TextView textView;
 	private ListView listView;
+	
 	private ListView lvs;
-	private ListView lv;
     
-private TextView tv;
+   
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
