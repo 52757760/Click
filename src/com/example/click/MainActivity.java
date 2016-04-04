@@ -26,7 +26,10 @@ public class MainActivity<MyAdapter> extends Activity {
 	
 	private ListView lvs;
     
-   
+   /*
+    * (non-Javadoc)Ã»ÊÂµÄ
+    * @see android.app.Activity#onCreate(android.os.Bundle)
+    */
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
