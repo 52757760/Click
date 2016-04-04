@@ -25,7 +25,9 @@ public class MainActivity<MyAdapter> extends Activity {
 	private ListView listView;
 	
 	private ListView lvs;
-    
+    /*
+     * ÎÒÊÇÄãµÄÐ¡»ï°é¹þ¹þ¹þ¹þ¹þ¹þ¹þ
+     */
     int a=1;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
