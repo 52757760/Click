@@ -26,7 +26,7 @@ public class MainActivity<MyAdapter> extends Activity {
 	
 	private ListView lvs;
     /*
-     * 我是你的小伙伴哈哈哈哈哈哈哈
+     * 我要来提交了，你呢
      */
     int a=1;
 	@Override
